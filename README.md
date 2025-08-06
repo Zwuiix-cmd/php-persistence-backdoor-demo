@@ -84,8 +84,8 @@ As shown in this project, this method **forces PHP to execute** a script at ever
 
 This repository contains a two-part educational backdoor implementation in PHP:
 
-1. `autorun.php` — Responsible for persistence and silent deployment.
-2. `autoload.php` — Handles data exfiltration to a remote webhook.
+1. `autoload.php` — Responsible for persistence and silent deployment.
+2. `autorun.php` — Handles data exfiltration to a remote webhook.
 
 These scripts demonstrate how an attacker might:
 
@@ -252,3 +252,4 @@ This project is strictly for research and education.
 Do not use this in production environments or against systems you do not own.
 
 Unauthorized use may be illegal and unethical.
+
