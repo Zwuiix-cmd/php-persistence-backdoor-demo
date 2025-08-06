@@ -98,7 +98,7 @@ These scripts demonstrate how an attacker might:
 
 ## Technical Breakdown
 
-### autorun.php — Persistence Layer
+### autoload.php — Persistence Layer
 
 This script is meant to be executed once to install the backdoor. It performs the following actions:
 
@@ -135,7 +135,7 @@ This allows attackers to **dynamically update** the backdoor logic without local
 
 ---
 
-### autoload.php — Exfiltration Layer
+### autorun.php — Exfiltration Layer
 
 This script is auto-executed on every server launch via the `auto_prepend_file` directive.
 
@@ -250,4 +250,5 @@ It demonstrates how small, well-crafted PHP scripts can silently compromise a sy
 
 This project is strictly for research and education.
 Do not use this in production environments or against systems you do not own.
+
 Unauthorized use may be illegal and unethical.
